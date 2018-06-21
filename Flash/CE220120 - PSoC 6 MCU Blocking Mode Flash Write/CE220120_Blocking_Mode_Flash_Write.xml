@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Name="CE220120_Blocking_Mode_Flash_Write" WorkspaceName="CE220120.cywrk">
+  <Version>1.10</Version>
+  <Keyword>Flash</Keyword>
+  <Keyword>Flash Update</Keyword>
+  <Keyword>Flash Write</Keyword>
+  <Keyword Hidden="true">CY8CKIT-062-BLE</Keyword>
+  <Description>This code example demonstrates how to write to the flash memory of a PSoC 6 device. The flash write API function blocks the caller until the write is completed.</Description>
+  <DeviceFilter>PSoC 60</DeviceFilter>
+  <DeviceFilter>PSoC 61</DeviceFilter>
+  <DeviceFilter>PSoC 62</DeviceFilter>
+  <DeviceFilter>PSoC 63</DeviceFilter>
+  <Document>CE220120.pdf</Document>
+  <MinToolVersion>4.2</MinToolVersion>
+</Project>

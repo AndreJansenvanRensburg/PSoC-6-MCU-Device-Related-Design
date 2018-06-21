@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Name="CE221984_Bootloader_Dual_App0" WorkspaceName="CE221984.cywrk">
+<Version>1.0</Version>
+<Keyword>PSoC 6</Keyword>
+<Keyword>Bootloader</Keyword>
+<Keyword>Dual-App</Keyword>
+<Keyword>Factory Default</Keyword>
+<Keyword>Golden Image</Keyword>
+<Keyword Hidden="true">CY8CKIT-062-BLE</Keyword>
+<Description>This code example demonstrates a PSoC 6 MCU Bootloader with two applications. Either application can be downloaded from a host through an I2C communication channel and installed in device flash. The bootloader then transfers control to one of the applications, in either basic mode or factory default ("golden image") mode.</Description>
+<DeviceFilter>PSoC 62</DeviceFilter>
+<DeviceFilter>PSoC 63</DeviceFilter>
+<Document>CE221984.pdf</Document>
+<MinToolVersion>4.2</MinToolVersion>
+</Project>

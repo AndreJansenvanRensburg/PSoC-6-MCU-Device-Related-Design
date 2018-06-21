@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Name="CE219881_PowerModes" WorkspaceName="CE219881.cywrk">
+  <Version>1.10</Version>
+  <Keyword>Low Power</Keyword>
+  <Keyword>Power Modes</Keyword>
+  <Keyword>Deep sleep</Keyword>
+  <Keyword>Sleep</Keyword>
+  <Keyword Hidden="true">CY8CKIT-062</Keyword>
+  <Description>This example demonstrates how to transition PSoC 6 between the following power modes - Active, Sleep, Low Power Active, Low Power Sleep and Deep Sleep.</Description>
+  <DeviceFilter>PSoC 60</DeviceFilter>
+  <DeviceFilter>PSoC 61</DeviceFilter>
+  <DeviceFilter>PSoC 62</DeviceFilter>
+  <DeviceFilter>PSoC 63</DeviceFilter>
+  <Document>CE219881.pdf</Document>
+  <MinToolVersion>4.2</MinToolVersion>
+</Project>

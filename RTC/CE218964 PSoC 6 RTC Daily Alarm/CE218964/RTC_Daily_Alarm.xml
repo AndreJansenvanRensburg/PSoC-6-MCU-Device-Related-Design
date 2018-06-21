@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Name="RTC_Daily_Alarm" WorkspaceName="CE218964.cywrk">
+  <Version>1.0</Version>
+  <Keyword>RTC</Keyword>
+  <Keyword>RTC_PDL</Keyword>
+  <Keyword>The RTC Daily Alarm function of the PSoC 6 Real-time Clock (RTC)</Keyword>
+  <Keyword Hidden="true">CY8CKIT-062-BLE</Keyword>
+  <Description>This code example demonstrates how to configure RTC registers for a daily alarm using the RTC driver application program interface (API) in the peripheral driver library (PDL). </Description>
+  <DeviceFilter>PSoC 63</DeviceFilter>
+  <Document>CE218964_PSoC6_RTC_Daily_Alarm.pdf</Document>
+  <MinToolVersion>4.2</MinToolVersion>
+</Project>

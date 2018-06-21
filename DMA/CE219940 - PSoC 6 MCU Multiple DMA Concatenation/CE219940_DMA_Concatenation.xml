@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Name="CE219940_DMA_Concatenation" WorkspaceName="CE219940.cywrk">
+<Version>1.0</Version>
+<Keyword>PSoC6</Keyword>
+<Keyword>DMA</Keyword>
+<Keyword>DMA_PDL</Keyword>
+<Keyword>Concatenation</Keyword>
+<Keyword>RTC</Keyword>
+<Keyword Hidden="true">CY8CKIT-062</Keyword>
+<Description>This example demonstrates how to use DMA to combine data from multiple inputs and store it in a memory array on a PSoC 6 MCU device.</Description>
+<DeviceFilter>PSoC 60</DeviceFilter>
+<DeviceFilter>PSoC 61</DeviceFilter>
+<DeviceFilter>PSoC 62</DeviceFilter>
+<DeviceFilter>PSoC 63</DeviceFilter>
+<Document>CE219940.pdf</Document>
+<MinToolVersion>4.2</MinToolVersion>
+</Project>

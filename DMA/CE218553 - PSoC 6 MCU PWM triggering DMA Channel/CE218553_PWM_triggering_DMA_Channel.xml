@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Name="CE218553_PWM_triggering_DMA_Channel" WorkspaceName="CE218553.cywrk">
+  <Version>1.0</Version>
+  <Keyword>Trigger Multiplexer</Keyword>
+  <Keyword>DMA</Keyword>
+  <Keyword>PWM</Keyword>
+  <Keyword>Data Transfer</Keyword>
+  <Keyword>PSoC 6</Keyword>
+  <Keyword Hidden="true">CY8CKIT-062-BLE</Keyword>
+  <Keyword Hidden="true">CY8CKIT-062</Keyword>
+  <Description>This code examples demonstrates how to route trigger signals on a PSoC 6 device. 
+  The trigger signal, in this code example, is routed from the PWM to the DMA, 
+  using PSoC Creator's auto routing feature.</Description>
+  <DeviceFilter>PSoC 62</DeviceFilter>
+  <DeviceFilter>PSoC 63</DeviceFilter>
+  <Document>CE218553.pdf</Document>
+  <MinToolVersion>4.2</MinToolVersion>
+</Project>

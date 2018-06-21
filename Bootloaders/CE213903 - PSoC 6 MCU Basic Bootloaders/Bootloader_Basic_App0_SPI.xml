@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Name="Bootloader_Basic_App0_SPI" WorkspaceName="CE213903.cywrk">
+<Version>1.20</Version>
+<Keyword>SPI</Keyword>
+<Keyword>SCB_SPI_PDL</Keyword>
+<Keyword>Bootloader SDK</Keyword>
+<Keyword Hidden="true">CY8CKIT-062-BLE</Keyword>
+<Description>These examples demonstrate basic bootloading with the PSoC 6. This includes downloading an application from a host and installing it in device flash, and then transferring control to that application.</Description>
+<DeviceFilter>PSoC 62</DeviceFilter>
+<DeviceFilter>PSoC 63</DeviceFilter>
+<Document>CE213903.pdf</Document>
+<MinToolVersion>4.2</MinToolVersion>
+</Project>

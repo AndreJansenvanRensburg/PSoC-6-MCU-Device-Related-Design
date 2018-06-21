@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Name="Bootloader_BLE_App1" WorkspaceName="CE216767.cywrk">
+<Version>1.20</Version>
+<Keyword>PSoC6</Keyword>
+<Keyword>BLE</Keyword>
+<Keyword>Bluetooth</Keyword>
+<Keyword>OTA</Keyword>
+<Keyword>Over the Air</Keyword>
+<Keyword>Bootloader</Keyword>
+<Keyword Hidden="true">CY8CKIT-062-BLE</Keyword>
+<Description>This example demonstrates simple over the air (OTA) bootloading with a PSoC® 6 MCU with Bluetooth Low Energy (BLE) connectivity. This includes downloading an application from a host, installing it in device flash, and then transferring control to that application. The downloaded application demonstrates several basic Bluetooth services. It is based on CE215121 BLE HID Keyboard, with small changes to support the Bootloader SDK.</Description>
+<DeviceFilter>PSoC 63</DeviceFilter>
+<Document>CE216767.pdf</Document>
+<MinToolVersion>4.2</MinToolVersion>
+</Project>

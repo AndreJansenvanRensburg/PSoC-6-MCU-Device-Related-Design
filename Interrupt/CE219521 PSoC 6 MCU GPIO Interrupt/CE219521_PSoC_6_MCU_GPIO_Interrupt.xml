@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Name="CE219521_PSoC_6_MCU_GPIO_Interrupt" WorkspaceName="CE219521.cywrk">
+  <Version>1.0</Version>
+  <Keyword>Interrupt</Keyword>
+  <Keyword>SysInt_PDL</Keyword>
+  <Keyword>GPIO</Keyword> 
+  <Keyword>Deep Sleep</Keyword>
+  <Keyword>GlobalSignal</Keyword>
+  <Keyword>cy_gsref</Keyword>
+  <Keyword Hidden="true">CY8CKIT-062-BLE</Keyword>
+  <Description>This example demonstrates how to configure a GPIO 
+  to generate an interrupt using PSoC 6 MCU. The example also shows 
+  how the GPIO interrupt can be used to wake the CPU from 
+  Deep Sleep low-power mode.</Description>
+  <DeviceFilter>PSoC 60</DeviceFilter>
+  <DeviceFilter>PSoC 61</DeviceFilter>
+  <DeviceFilter>PSoC 62</DeviceFilter>
+  <DeviceFilter>PSoC 63</DeviceFilter>
+  <Document>CE219521.pdf</Document>
+  <MinToolVersion>4.2</MinToolVersion>
+</Project>

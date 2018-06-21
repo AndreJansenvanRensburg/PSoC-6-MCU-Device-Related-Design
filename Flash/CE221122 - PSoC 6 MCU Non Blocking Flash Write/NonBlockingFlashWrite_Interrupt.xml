@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Name="NonBlockingFlashWrite_Interrupt" WorkspaceName="CE221122.cywrk">
+  <Version>1.0</Version>
+  <Keyword>Flash Update</Keyword>
+  <Keyword>Flash Write</Keyword>
+  <Keyword>Non Blocking</Keyword>
+  <Keyword Hidden="true">CY8CKIT-062-BLE</Keyword>
+  <Description>Demonstrates writing into the flash using Peripheral Driver Library (PDL) non-blocking APIs. This is done using interrupt method.</Description>
+  <DeviceFilter>PSoC 60</DeviceFilter>
+  <DeviceFilter>PSoC 61</DeviceFilter>
+  <DeviceFilter>PSoC 62</DeviceFilter>
+  <DeviceFilter>PSoC 63</DeviceFilter>
+  <Document>CE221122_PSoC6MCU_NonBlockingFlashWrite.pdf</Document>
+  <MinToolVersion>4.2</MinToolVersion>
+</Project>

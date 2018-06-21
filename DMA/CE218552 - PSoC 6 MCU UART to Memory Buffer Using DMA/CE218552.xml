@@ -1,0 +1,20 @@
+﻿<?xml encoding="utf-8"?>
+<Project Name="CE218552" WorkspaceName="CE218552.cywrk">
+  <Version>1.0</Version>
+  <Keyword>DMA</Keyword>
+  <Keyword>UART</Keyword>
+  <Keyword>Data Transfer</Keyword>
+  <Keyword>PSoC 6</Keyword>
+  <Keyword Hidden="true">CY8CKIT-062-BLE</Keyword>
+  <Keyword Hidden="true">CY8CKIT-062</Keyword>
+  <Description>This PSoC 6 code example demonstrates a UART-to-memory 
+  buffer data transfer using DMA, with no CPU usage. DMA channels are 
+  used to implement data transfer both on received data and transmitted 
+  data of the UART.</Description>
+  <DeviceFilter>PSoC 60</DeviceFilter>
+  <DeviceFilter>PSoC 61</DeviceFilter>
+  <DeviceFilter>PSoC 62</DeviceFilter>
+  <DeviceFilter>PSoC 63</DeviceFilter>
+  <Document>CE218552.pdf</Document>
+  <MinToolVersion>4.2</MinToolVersion>
+</Project>

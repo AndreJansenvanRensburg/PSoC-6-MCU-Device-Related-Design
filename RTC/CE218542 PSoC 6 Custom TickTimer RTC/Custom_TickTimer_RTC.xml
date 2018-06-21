@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Name="Custom_TickTimer_RTC" WorkspaceName="CE218542.cywrk">
+  <Version>1.10</Version>
+  <Keyword>RTC</Keyword>
+  <Keyword>RTC_PDL</Keyword>
+  <Keyword>The custom tick timer using the periodic Alarm interrupt of RTC</Keyword>
+  <Keyword Hidden="true">CY8CKIT-062-BLE</Keyword>
+  <Description>This code example demonstrates  how to configure the RTC registers for a periodic alarm interrupt using the RTC driver.</Description>
+  <DeviceFilter>PSoC 63</DeviceFilter>
+  <DeviceFilter>PSoC 62</DeviceFilter>
+  <Document>CE218542_PSoC6_Custom_TickTimer_RTC.pdf</Document>
+  <MinToolVersion>4.2</MinToolVersion>
+</Project>

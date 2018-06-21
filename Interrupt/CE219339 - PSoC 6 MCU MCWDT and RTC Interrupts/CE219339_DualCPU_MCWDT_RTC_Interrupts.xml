@@ -1,0 +1,17 @@
+﻿<?xml version ="1.0" encoding="utf-8"?>
+  <Project Name="CE219339_DualCPU_MCWDT_RTC_Interrupts" WorkspaceName="CE219339.cywrk">
+  <Version>1.20</Version>
+  <Keyword>Interrupt</Keyword> 
+  <Keyword>SysInt_PDL</Keyword> 
+  <Keyword>MCWDT</Keyword>
+  <Keyword>MCWDT_PDL</Keyword>  
+  <Keyword>RTC</Keyword>
+  <Keyword>RTC_PDL</Keyword>
+  <Keyword>Dual Core</Keyword> 
+  <Keyword Hidden="true">CY8CKIT-062-BLE</Keyword>
+  <Description>This example demonstrates how to configure multiple peripherals 
+  to generate interrupts on multiple CPUs in PSoC 6 MCU.</Description>
+  <DeviceFilter>PSoC 63</DeviceFilter>
+  <Document>CE219339.pdf</Document>
+  <MinToolVersion>4.2</MinToolVersion>
+</Project>
