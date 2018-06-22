@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Name="Watchdog_Timer" WorkspaceName="CE220060.cywrk">
+  <Version>1.20</Version>
+  <Keyword>WDT</Keyword>
+  <Keyword>Watchdog</Keyword>
+  <Keyword>GSRef</Keyword>
+  <Keyword Hidden="true">CY8CKIT-062-BLE</Keyword>
+  <Description>This example demonstrates the use cases of the watchdog timer (WDT) in PSoC 6 MCU: WDT enabled to reset the device, WDT as a Deep Sleep wakeup source, and WDT generating a periodic interrupt.</Description>
+  <DeviceFilter>PSoC 60</DeviceFilter>
+  <DeviceFilter>PSoC 61</DeviceFilter>
+  <DeviceFilter>PSoC 62</DeviceFilter>
+  <DeviceFilter>PSoC 63</DeviceFilter>
+  <Document>CE220060_PSoC6MCU_WatchdogTimer.pdf</Document>
+  <MinToolVersion>4.2</MinToolVersion>
+</Project>

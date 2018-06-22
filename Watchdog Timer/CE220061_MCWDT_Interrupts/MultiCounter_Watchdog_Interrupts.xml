@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Name="MultiCounter_Watchdog_Interrupts" WorkspaceName="CE220061.cywrk">
+  <Version>1.30</Version>
+  <Keyword>MCWDT</Keyword>
+  <Keyword>Interrupt</Keyword>
+  <Keyword>MCWDT_PDL</Keyword>
+  <Keyword Hidden="true">CY8CKIT-062-BLE</Keyword>
+  <Description>This example uses two MCWDT PSoC Creator Components available in the PSoC 6 devices to generate periodic events. These periodic events are used to drive GPIO pins.</Description>
+  <DeviceFilter>PSoC 60</DeviceFilter>
+  <DeviceFilter>PSoC 61</DeviceFilter>
+  <DeviceFilter>PSoC 62</DeviceFilter>
+  <DeviceFilter>PSoC 63</DeviceFilter>
+  <Document>CE220061_PSoC6MCU_MultiCounterWatchdogInterrupts.pdf</Document>
+  <MinToolVersion>4.2</MinToolVersion>
+</Project>
