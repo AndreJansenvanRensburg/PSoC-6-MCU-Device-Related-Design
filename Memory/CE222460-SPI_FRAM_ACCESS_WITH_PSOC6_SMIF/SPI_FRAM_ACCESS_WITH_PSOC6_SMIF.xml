@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Name="SPI_FRAM_ACCESS_WITH_PSOC6_SMIF" WorkspaceName="CE222460.cywrk">
+  <Version>1.0</Version>
+  <Keyword>SPI FRAM</Keyword>
+  <Keyword>SPI NVRAM</Keyword>
+  <Keyword>F-RAM</Keyword>
+  <Keyword>FRAM</Keyword>  
+  <Keyword>Serial NVRAM</Keyword>
+  <Keyword>Serial F-RAM</Keyword>    
+  <Keyword Hidden="true">CY8CKIT-062</Keyword>
+  <Keyword Hidden="true">CY8CKIT-062-BLE</Keyword>
+<Description>This code example implements the SPI host controller on PSoC 6 using the SMIF component and demonstrates accessing different features of the SPI F-RAM. The result is displayed by driving the status LED (RGB) which turns GREEN when the result is a pass and turns RED when the result is a fail. The code example also enables the UART interface to connect to the PC to monitor the result.</Description>
+  <DeviceFilter>PSoC 61</DeviceFilter>
+  <DeviceFilter>PSoC 62</DeviceFilter>
+  <DeviceFilter>PSoC 63</DeviceFilter>
+  <Document>CE222460.pdf</Document>
+  <MinToolVersion>4.2</MinToolVersion>
+</Project>
