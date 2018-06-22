@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Name="SMIF_Memory_Write_and_Read_Operation" WorkspaceName="CE220823.cywrk">
+  <Version>1.20</Version>
+  <Keyword>SMIF</Keyword>
+  <Keyword>SMIF_PDL</Keyword>
+  <Keyword Hidden="true">CY8CKIT-062-BLE</Keyword>
+  <Description>This example writes and reads 256 bytes of data to external memory using SMIF quad mode. The example checks the integrity of read data against written data.</Description>
+  <DeviceFilter>PSoC 60</DeviceFilter>
+  <DeviceFilter>PSoC 61</DeviceFilter>
+  <DeviceFilter>PSoC 62</DeviceFilter>
+  <DeviceFilter>PSoC 63</DeviceFilter>
+  <Document>CE220823_PSoC6MCU_SMIFMemoryWriteandReadOperation.pdf</Document>
+  <MinToolVersion>4.2</MinToolVersion>
+</Project>
