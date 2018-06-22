@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Name="Watchdog_Timer_in_Interrupt_Mode" WorkspaceName="CE220607.cywrk">
+  <Version>1.10</Version>
+  <Keyword>WDT</Keyword>
+  <Keyword>Interrupt</Keyword>
+  <Keyword>GSRef</Keyword>
+  <Keyword Hidden="true">CY8CKIT-062-BLE</Keyword>
+  <Description>This example demonstrates how to use the WDT in interrupt mode, blinks a kit LED using the WDT interrupt.</Description>
+  <DeviceFilter>PSoC 60</DeviceFilter>
+  <DeviceFilter>PSoC 61</DeviceFilter>
+  <DeviceFilter>PSoC 62</DeviceFilter>
+  <DeviceFilter>PSoC 63</DeviceFilter>
+  <Document>CE220607_PSoC6MCU_WatchdogTimerinInterruptMode.pdf</Document>
+  <MinToolVersion>4.2</MinToolVersion>
+</Project>
