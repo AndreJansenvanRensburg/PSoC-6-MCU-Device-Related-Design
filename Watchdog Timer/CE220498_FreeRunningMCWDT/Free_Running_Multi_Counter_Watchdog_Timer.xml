@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Name="Free_Running_Multi_Counter_Watchdog_Timer" WorkspaceName="CE220498.cywrk">
+  <Version>1.20</Version>
+  <Keyword>MCWDT</Keyword>
+  <Keyword>Free Running</Keyword>
+  <Keyword>counter</Keyword>
+  <Keyword>MCWDT_PDL</Keyword>
+  <Keyword Hidden="true">CY8CKIT-062-BLE</Keyword>
+  <Description>Reports the time between two kit button presses, using an MCWDT counter</Description>
+  <DeviceFilter>PSoC 60</DeviceFilter>
+  <DeviceFilter>PSoC 61</DeviceFilter>
+  <DeviceFilter>PSoC 62</DeviceFilter>
+  <DeviceFilter>PSoC 63</DeviceFilter>
+  <Document>CE220498_PSoC6MCU_FreeRunningMultiCounterWatchdogTimer.pdf</Document>
+  <MinToolVersion>4.2</MinToolVersion>
+</Project>
