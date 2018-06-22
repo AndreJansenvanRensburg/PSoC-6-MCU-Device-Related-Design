@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Name="Multi_Counter_Watchdog_Timer_in_Watchdog_Mode" WorkspaceName="CE220608.cywrk">
+  <Version>1.20</Version>
+  <Keyword>MCWDT</Keyword>
+  <Keyword>counter</Keyword>
+  <Keyword>watchdog</Keyword>
+  <Keyword>MCWDT_PDL</Keyword>
+  <Keyword Hidden="true">CY8CKIT-062-BLE</Keyword>
+  <Description>This example demonstrates how to use PSoC 6 Multi-Counter Watchdog Timer (MCWDT) in watchdog mode.</Description>
+  <DeviceFilter>PSoC 60</DeviceFilter>
+  <DeviceFilter>PSoC 61</DeviceFilter>
+  <DeviceFilter>PSoC 62</DeviceFilter>
+  <DeviceFilter>PSoC 63</DeviceFilter>
+  <Document>CE220608_PSoC6MCU_MultiCounterWatchdogTimerinWatchdogMode.pdf</Document>
+  <MinToolVersion>4.2</MinToolVersion>
+</Project>
