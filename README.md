@@ -46,27 +46,37 @@ To use the code examples in this repository, please download and install
 #### CE213093 - PSoC 6 MCU Basic Bootloaders
 These examples demonstrate basic bootloading with PSoC® 6 MCU. This includes downloading an application from a host and
 installing it in device flash, and then transferring control to that application.
-
 #### CE216767 – PSoC 6 MCU with Bluetooth Low Energy (BLE) Connectivity Bootloader
 This example demonstrates simple over the air (OTA) bootloading with a PSoC® 6 MCU with Bluetooth Low Energy (BLE)
 connectivity. This includes downloading an application from a host, installing it in device flash, and then transferring control to
 that application. The downloaded application demonstrates several basic Bluetooth services. It is based on CE215121 BLE HID
 Keyboard, with small changes to support the Bootloader SDK
-
 #### CE220959 – PSoC 6 MCU with BLE Bootloader Using External Memory
 This example demonstrates over the air (OTA) bootloading with a PSoC 6 MCU with Bluetooth Low Energy (BLE) connectivity
 using an external memory. The application is downloaded into the external memory, verified, and afterwards copied into the
 internal flash memory for execution.
-
 #### CE220960 – PSoC 6 MCU BLE Upgradable Stack Bootloader
 This example demonstrates over the air (OTA) bootloading with a PSoC 6 MCU with Bluetooth Low Energy (BLE)
 connectivity. The BLE stack code is shared between applications to reduce flash usage. The bootloader may download
 updates to the BLE stack or to the application.
-
 #### CE221984 – PSoC 6 MCU Dual-Application Bootloader
 This code example demonstrates a PSoC® 6 MCU Bootloader with two applications. Either application can be downloaded
 from a host through an I2C communication channel and installed in device flash. The bootloader then transfers control to one
 of the applications, in either basic mode or factory default (“golden image”) mode.
+
+### Direct Memory Access (DMA)
+#### CE218552 – PSoC 6 MCU: UART to Memory Buffer Using DMA
+This example demonstrates how a PSoC 6 DMA channel transfers data received from the UART to a buffer in memory. When
+the buffer is filled, a second DMA channel drains the buffer to the UART, to be transmitted.
+#### CE218553 – PSoC 6 MCU: PWM Triggering a DMA Channel
+This code example demonstrates how to route trigger signals in PSoC 6. In this code example, PSoC Creator is used to
+configure the trigger multiplexer. This is demonstrated using a PWM trigger routed to a DMA channel. The PWM is connected
+to an LED to implement a variable intensity. The PWM also triggers the DMA in every cycle. The DMA is used to update the
+PWM duty cycle to create a breathing effect on the LED. 
+#### CE219940 – PSoC 6 MCU Multiple DMA Concatenation
+This example demonstrates the use of multiple concatenated DMA channels to manipulate memory, with no CPU usage. The
+incoming data from the UART is packed into 5-byte packets and stored in a memory array, along with a timestamp from the
+RTC. When four packets of data are stored, they are echoed back to the UART using DMA.
 
 ## References
 #### 1. PSoC 6 MCU
