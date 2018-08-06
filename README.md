@@ -129,6 +129,21 @@ This code example demonstrates how to configure RTC registers for a daily alarm 
 Interface (API) in the Peripheral Driver Library (PDL). A GPIO output is included for an LED to notify alarm expiration. A UART
 is used to show the current and alarm times. 
 
+### Watchdog Timer
+#### 1. CE220060 – PSoC 6 MCU Watchdog Timer
+This example demonstrates the use cases of the watchdog timer (WDT) in PSoC 6 MCU: WDT enabled to reset the device,
+WDT as a Deep Sleep wakeup source, and WDT generating a periodic interrupt.
+#### 2. CE220061 – PSoC 6 MCU: Multi-Counter Watchdog Interrupts
+This example uses two MCWDT PSoC Creator Components available in the PSoC 6 MCU devices to generate periodic
+events. These periodic events are used to drive GPIO pins.
+#### 3. CE220498 – PSoC 6 MCU - Free-Running Multi-Counter Watchdog Timer
+This example shows how to use MCWDT counters in free-running mode to measure the time between two presses of a switch.
+#### 4. CE220607 – PSoC 6 MCU Watchdog Timer in Interrupt Mode
+This example demonstrates how to use the PSoC 6 MCU Watchdog Timer (WDT) in interrupt mode. It blinks an LED using the
+WDT interrupt.
+#### 5. CE220608 – PSoC 6 MCU Multi-Counter Watchdog Timer in Watchdog Mode
+The example starts an MCWDT counter in watchdog mode, clears the watchdog until a button is pressed, then the device is
+put into Deep Sleep mode. After the watchdog reset, an LED is flashed to confirm that the watchdog reset has occurred.
 
 ## References
 #### 1. PSoC 6 MCU
