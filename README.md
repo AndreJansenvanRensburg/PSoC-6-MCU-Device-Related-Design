@@ -43,54 +43,75 @@ To use the code examples in this repository, please download and install
 ## Code Example List
 
 ### Bootloaders
-#### 1.CE213093 - PSoC 6 MCU Basic Bootloaders
+#### 1. CE213093 - PSoC 6 MCU Basic Bootloaders
 These examples demonstrate basic bootloading with PSoC® 6 MCU. This includes downloading an application from a host and
 installing it in device flash, and then transferring control to that application.
-#### 2.CE216767 – PSoC 6 MCU with Bluetooth Low Energy (BLE) Connectivity Bootloader
+#### 2. CE216767 – PSoC 6 MCU with Bluetooth Low Energy (BLE) Connectivity Bootloader
 This example demonstrates simple over the air (OTA) bootloading with a PSoC® 6 MCU with Bluetooth Low Energy (BLE)
 connectivity. This includes downloading an application from a host, installing it in device flash, and then transferring control to
 that application. The downloaded application demonstrates several basic Bluetooth services. It is based on CE215121 BLE HID
 Keyboard, with small changes to support the Bootloader SDK
-#### 3.CE220959 – PSoC 6 MCU with BLE Bootloader Using External Memory
+#### 3. CE220959 – PSoC 6 MCU with BLE Bootloader Using External Memory
 This example demonstrates over the air (OTA) bootloading with a PSoC 6 MCU with Bluetooth Low Energy (BLE) connectivity
 using an external memory. The application is downloaded into the external memory, verified, and afterwards copied into the
 internal flash memory for execution.
-#### 4.CE220960 – PSoC 6 MCU BLE Upgradable Stack Bootloader
+#### 4. CE220960 – PSoC 6 MCU BLE Upgradable Stack Bootloader
 This example demonstrates over the air (OTA) bootloading with a PSoC 6 MCU with Bluetooth Low Energy (BLE)
 connectivity. The BLE stack code is shared between applications to reduce flash usage. The bootloader may download
 updates to the BLE stack or to the application.
-#### 5.CE221984 – PSoC 6 MCU Dual-Application Bootloader
+#### 5. CE221984 – PSoC 6 MCU Dual-Application Bootloader
 This code example demonstrates a PSoC® 6 MCU Bootloader with two applications. Either application can be downloaded
 from a host through an I2C communication channel and installed in device flash. The bootloader then transfers control to one
 of the applications, in either basic mode or factory default (“golden image”) mode.
 
 ### Direct Memory Access (DMA)
-#### 1.CE218552 – PSoC 6 MCU: UART to Memory Buffer Using DMA
+#### 1. CE218552 – PSoC 6 MCU: UART to Memory Buffer Using DMA
 This example demonstrates how a PSoC 6 DMA channel transfers data received from the UART to a buffer in memory. When
 the buffer is filled, a second DMA channel drains the buffer to the UART, to be transmitted.
-#### 2.CE218553 – PSoC 6 MCU: PWM Triggering a DMA Channel
+#### 2. CE218553 – PSoC 6 MCU: PWM Triggering a DMA Channel
 This code example demonstrates how to route trigger signals in PSoC 6. In this code example, PSoC Creator is used to
 configure the trigger multiplexer. This is demonstrated using a PWM trigger routed to a DMA channel. The PWM is connected
 to an LED to implement a variable intensity. The PWM also triggers the DMA in every cycle. The DMA is used to update the
 PWM duty cycle to create a breathing effect on the LED. 
-#### 3.CE219940 – PSoC 6 MCU Multiple DMA Concatenation
+#### 3. CE219940 – PSoC 6 MCU Multiple DMA Concatenation
 This example demonstrates the use of multiple concatenated DMA channels to manipulate memory, with no CPU usage. The
 incoming data from the UART is packed into 5-byte packets and stored in a memory array, along with a timestamp from the
 RTC. When four packets of data are stored, they are echoed back to the UART using DMA.
 
 ### GPIO
-#### 1.CE220263 – PSoC 6 MCU GPIO Pins Example
+#### 1. CE220263 – PSoC 6 MCU GPIO Pins Example
 This example demonstrates multiple methods of configuring, reading, writing, and generating interrupts with PSoC 6 General
 Purpose Input/Output (GPIO) pins. Both the PSoC Creator schematic Pins Component and PDL GPIO driver methods are shown.
 
 ### Interrupt
-#### 1.CE219339 – PSoC 6 MCU – MCWDT and RTC Interrupts (Dual CPU)
+#### 1. CE219339 – PSoC 6 MCU – MCWDT and RTC Interrupts (Dual CPU)
 PSoC 6 MCU has dual CPUs: an Arm Cortex-M4 (CM4) and a Cortex-M0+ (CM0+). This example uses a PSoC 6 MCU
 multi-counter watchdog timer (MCWDT) and a real-time clock (RTC) to generate the interrupts. The interrupts are assigned to
 separate CPUs. 
-#### 2.CE219521 – PSoC 6 MCU - GPIO Interrupt
+#### 2. CE219521 – PSoC 6 MCU - GPIO Interrupt
 This example demonstrates how to configure a GPIO to generate an interrupt using PSoC 6 MCU. The example also shows
 how the GPIO interrupt can be used to wake the CPU from Deep Sleep low-power mode.
+
+### Memory
+#### 1. CE220120 – PSoC 6 MCU: Blocking Mode Flash Write
+This example demonstrates how to write to the flash memory of a PSoC 6 MCU device. In this example, the flash write API
+function blocks the caller until the write is completed.
+#### 2. CE220823 – PSoC 6 MCU SMIF Memory Write and Read Operation
+This example writes and reads 256 bytes of data to external memory using SMIF quad mode. The example also checks the
+integrity of read data against written data.
+#### 3. CE221122 – PSoC 6 MCU Non-blocking Flash Write
+These examples implement the flash write using polling and interrupt to complete the flash write operation.
+#### 4. CE222460 - SPI F-RAM Access Using PSoC 6 MCU SMIF
+CE222460 provides a code example that implements the SPI host controller on PSoC 6 MCU using the SMIF Component and
+demonstrates accessing different features of the SPI F-RAM. The result is displayed by driving the status LED (RGB) which
+turns green when the result is a pass, and turns red when the result is a fail. The code example also enables the UART
+interface to connect to a PC to monitor the result.
+#### 5. CE222967 – Excelon™-Ultra QSPI F-RAM Access Using PSoC 6 MCU SMIF 
+CE222967 provides a code example that implements the QSPI host controller on the PSoC 6 MCU device using the SMIF
+Component and demonstrates accessing different features of the QSPI F-RAM™. The result is displayed by driving the status
+LED (RGB), which turns green when the result is a pass, and turns red when the result is a fail. The code example also
+enables the UART interface to connect to a PC to monitor the result.
+
 
 ## References
 #### 1. PSoC 6 MCU
