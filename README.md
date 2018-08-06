@@ -112,6 +112,23 @@ Component and demonstrates accessing different features of the QSPI F-RAM™. Th
 LED (RGB), which turns green when the result is a pass, and turns red when the result is a fail. The code example also
 enables the UART interface to connect to a PC to monitor the result.
 
+### Power Modes
+#### 1. CE219881 - PSoC 6 MCU Switching Between Power Modes
+This example demonstrates how to transition PSoC 6 between the following power modes - Active, Sleep, Low Power Active,
+Low Power Sleep and Deep Sleep.
+
+### Real-Time Clock (RTC)
+#### 1. CE216825 - PSoC 6 MCU Real-Time Clock Basics
+This code example demonstrates how to get and set the time in a real-time clock (RTC), using the RTC driver API in the
+Peripheral Driver Library (PDL).
+#### 2. CE218542 - PSoC 6 MCU Custom Tick Timer Using RTC Alarm
+This code example demonstrates how to configure the RTC registers for a periodic alarm interrupt using the Peripheral Driver
+Library (PDL) RTC driver API. A GPIO output is included to toggle the LED to show the period of the interrupt.
+#### 3. CE218964 - PSoC 6 MCU RTC Daily Alarm
+This code example demonstrates how to configure RTC registers for a daily alarm using the RTC driver Application Program
+Interface (API) in the Peripheral Driver Library (PDL). A GPIO output is included for an LED to notify alarm expiration. A UART
+is used to show the current and alarm times. 
+
 
 ## References
 #### 1. PSoC 6 MCU
