@@ -42,6 +42,31 @@ To use the code examples in this repository, please download and install
 
 ## Code Example List
 
+### Bootloaders
+#### CE213093 - PSoC 6 MCU Basic Bootloaders
+These examples demonstrate basic bootloading with PSoC® 6 MCU. This includes downloading an application from a host and
+installing it in device flash, and then transferring control to that application.
+
+#### CE216767 – PSoC 6 MCU with Bluetooth Low Energy (BLE) Connectivity Bootloader
+This example demonstrates simple over the air (OTA) bootloading with a PSoC® 6 MCU with Bluetooth Low Energy (BLE)
+connectivity. This includes downloading an application from a host, installing it in device flash, and then transferring control to
+that application. The downloaded application demonstrates several basic Bluetooth services. It is based on CE215121 BLE HID
+Keyboard, with small changes to support the Bootloader SDK
+
+#### CE220959 – PSoC 6 MCU with BLE Bootloader Using External Memory
+This example demonstrates over the air (OTA) bootloading with a PSoC 6 MCU with Bluetooth Low Energy (BLE) connectivity
+using an external memory. The application is downloaded into the external memory, verified, and afterwards copied into the
+internal flash memory for execution.
+
+#### CE220960 – PSoC 6 MCU BLE Upgradable Stack Bootloader
+This example demonstrates over the air (OTA) bootloading with a PSoC 6 MCU with Bluetooth Low Energy (BLE)
+connectivity. The BLE stack code is shared between applications to reduce flash usage. The bootloader may download
+updates to the BLE stack or to the application.
+
+#### CE221984 – PSoC 6 MCU Dual-Application Bootloader
+This code example demonstrates a PSoC® 6 MCU Bootloader with two applications. Either application can be downloaded
+from a host through an I2C communication channel and installed in device flash. The bootloader then transfers control to one
+of the applications, in either basic mode or factory default (“golden image”) mode.
 
 ## References
 #### 1. PSoC 6 MCU
