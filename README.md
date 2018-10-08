@@ -40,7 +40,7 @@ To use the code examples in this repository, please download and install
 
 **Note** Please refer to the code example documentation for selecting the appropriate kit for testing the project
 
-## Code Example List
+## Code Examples List
 
 ### Bootloaders
 #### 1. CE213093 - PSoC 6 MCU Basic Bootloaders
